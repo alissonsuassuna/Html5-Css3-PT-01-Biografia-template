@@ -2,6 +2,7 @@ body {
     background-color: #F2FFFC;
     font-family: "Crimson Text", "Times New Roman" ,serif;
     font-size: 120%;
+    line-height: 1.5;
 }
 
 h1, h2 {
@@ -9,11 +10,18 @@ h1, h2 {
 }
 main h1 {
     background-color: #851944;
+    border-bottom: 10px solid black;
     color: #FFF;
     text-align: center;
     margin: 0;
+    padding: 2%;
     
 }
+main div {
+    width: 62%;
+    margin: auto;
+}
+
 main a {
     color: #851944;
 }
@@ -34,6 +42,9 @@ blockquote {
     margin: 0;
 }
 
+blockquote, aside, footer {
+    padding: 2%;
+}
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
